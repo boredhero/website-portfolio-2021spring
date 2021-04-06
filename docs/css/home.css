@@ -10,6 +10,12 @@ body {
   p {
     color: black;
   }
+  body{
+    color: black;
+    text-align: center;
+    font-family: "Helvetica";
+    font-size: large;
+  }
   .row {
     display: flex;
     flex-wrap: wrap;
