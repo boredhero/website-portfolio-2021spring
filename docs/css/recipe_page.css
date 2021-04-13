@@ -1,11 +1,30 @@
+@font-face {
+  font-family: 'HomemadeApple';
+  src: url('../fonts/Homemade_Apple/HomemadeApple-Regular.ttf') format('truetype')
+}
+
 body {
     background-color: #FBF1FD;
   }
   h1 {
-    color: black; 
     text-align: center;
-    font-family: "Helvetica";
-    font-size: large;
+    color: black;
+    font-family: 'HomemadeApple';
+  }
+  h2{
+    text-align: center;
+    color: black;
+    font-family: 'HomemadeApple';
+  }
+  h3{
+    text-align: center;
+    color: black;
+    font-family: 'HomemadeApple';
+  }
+  h4{
+    text-align: center;
+    color: black;
+    font-family: 'HomemadeApple';
   }
   p {
     color: black;
@@ -20,7 +39,7 @@ body {
       color: black;
       text-align: center;
       font-family: "Helvetica";
-      font-size: large
+      font-size: large;
   }
   .list{
       text-align: center;
