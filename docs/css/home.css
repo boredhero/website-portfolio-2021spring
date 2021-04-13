@@ -1,11 +1,21 @@
+@font-face {
+  font-family: 'HomemadeApple';
+  src: url('../fonts/Homemade_Apple/HomemadeApple-Regular.ttf') format('truetype')
+}
+
 body {
     background-color: #FBF1FD;
   }
   h1 {
     color: black; 
     text-align: center;
-    font-family: "Helvetica";
+    font-family: "HomemadeApple";
     font-size: xx-large;
+  }
+  h5{
+    color: black;
+    text-align: center;
+    font-family: "HomemadeApple";
   }
   p {
     color: black;

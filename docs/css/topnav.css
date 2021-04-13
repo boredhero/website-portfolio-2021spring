@@ -1,7 +1,11 @@
+@font-face {
+  font-family: 'HomemadeApple';
+  src: url('../fonts/Homemade_Apple/HomemadeApple-Regular.ttf') format('truetype')
+}
 .topnav {
     background-color: #333;
     overflow: hidden;
-    font-family: "Helvetica";
+    font-family: "HomemadeApple";
   }
   
   .topnav a {
