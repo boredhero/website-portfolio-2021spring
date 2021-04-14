@@ -6,6 +6,8 @@
 body {
     background-color: #FBF1FD;
     text-align: center;
+    font-family: "Helvetica";
+    font-size: large;
   }
   h1 {
     color: black; 
@@ -20,12 +22,6 @@ body {
   }
   p {
     color: black;
-  }
-  body{
-    color: black;
-    text-align: center;
-    font-family: "Helvetica";
-    font-size: large;
   }
   .row {
     display: flex;
@@ -47,7 +43,19 @@ body {
     width: 100%;
     justify-content: center;
   }
-  
+
+img {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+ }
+ 
+ img:hover {
+    -webkit-filter: brightness(40%);
+    filter: brightness(40%);
+ }
   @media screen and (max-width: 800px) {
     .column {
       flex: 50%;
@@ -61,3 +69,4 @@ body {
       max-width: 100%;
     }
   }
+
