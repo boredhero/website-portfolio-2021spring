@@ -36,6 +36,9 @@ body {
     color: black;
     cursor: url('../img/spoon_cursor.png'), auto !important;
   }
+  a {
+    cursor: url('../img/spoon_cursor.png'), auto !important;
+  }
   .image1 {
       display: block;
       margin-left: auto;
