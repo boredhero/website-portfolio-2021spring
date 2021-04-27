@@ -5,6 +5,7 @@
 
 body {
     background-color: #B8AEC2;
+    cursor: url('../img/spoon_cursor.png'), auto !important;
   }
   h1 {
     text-align: center;
@@ -34,12 +35,14 @@ body {
       margin-left: auto;
       margin-right: auto;
       width: 50%;
+      cursor: url('../img/spoon_cursor.png'), auto !important;
   }
   .format{
       color: black;
       text-align: center;
       font-family: "Helvetica";
       font-size: large;
+      cursor: url('../img/spoon_cursor.png'), auto !important;
   }
   .list{
       text-align: center;

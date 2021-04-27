@@ -5,44 +5,53 @@
 
 body {
     background-color: #B8AEC2;
+    cursor: url('../img/spoon_cursor.png'), auto !important;
   }
   h1 {
     text-align: center;
     color: black;
     font-family: 'HomemadeApple';
+    cursor: url('../img/spoon_cursor.png'), auto !important;
   }
   h2{
     text-align: center;
     color: black;
     font-family: 'HomemadeApple';
+    cursor: url('../img/spoon_cursor.png'), auto !important;
   }
   h3{
     text-align: center;
     color: black;
     font-family: 'HomemadeApple';
+    cursor: url('../img/spoon_cursor.png'), auto !important;
   }
   h4{
     text-align: center;
     color: black;
     font-family: 'HomemadeApple';
+    cursor: url('../img/spoon_cursor.png'), auto !important;
   }
   p {
     color: black;
+    cursor: url('../img/spoon_cursor.png'), auto !important;
   }
   .image1 {
       display: block;
       margin-left: auto;
       margin-right: auto;
       width: 50%;
+      cursor: url('../img/spoon_cursor.png'), auto !important;
   }
   .recipe{
       color: black;
       text-align: center;
       font-family: "Helvetica";
       font-size: large;
+      cursor: url('../img/spoon_cursor.png'), auto !important;
   }
   .list{
       text-align: center;
+      
   }
   ul {
       display: inline-block;
