@@ -2,24 +2,29 @@
   font-family: 'HomemadeApple';
   src: url('../fonts/Homemade_Apple/HomemadeApple-Regular.ttf') format('truetype')
 }
-
+.custom-cursor {
+  cursor: url("../img/spoon_cursor.png"), auto;
+}
 body {
     
     background-color: #B8AEC2;
     text-align: center;
     font-family: "Helvetica";
     font-size: large;
+    cursor: url('../img/spoon_cursor.png'), auto !important;
   }
   h1 {
     color: black; 
     text-align: center;
     font-family: "HomemadeApple";
     font-size: xx-large;
+    cursor: url('../img/spoon_cursor.png'), auto !important;
   }
   h5{
     color: black;
     text-align: center;
     font-family: "HomemadeApple";
+    cursor: url('../img/spoon_cursor.png'), auto !important;
   }
   p {
     color: black;
@@ -29,6 +34,7 @@ body {
     flex-wrap: wrap;
     padding: 0 4px;
     justify-content: center;
+    cursor: url('../img/spoon_cursor.png'), auto !important;
   }
   
   .column {
@@ -36,6 +42,7 @@ body {
     max-width: 25%;
     padding: 0 4px;
     justify-content: center;
+    cursor: url('../img/spoon_cursor.png'), auto !important;
   }
   
   .column img {
@@ -43,6 +50,7 @@ body {
     vertical-align: middle;
     width: 100%;
     justify-content: center;
+    cursor: url('../img/spoon_cursor.png'), auto !important;
   }
 
 img {

@@ -1,10 +1,7 @@
-body {
-    background-color: #B8AEC2;
-  }
   h1 {
     color: black; 
     text-align: center;
-    font-family: "Helvetica";
+    font-family: "HomemadeApple";
     font-size: large;
   }
   p {
@@ -17,8 +14,10 @@ body {
     width: 20%;
   }
   body{
+      background-color: #B8AEC2;
       color: black;
       text-align: center;
       font-family: "Helvetica";
       font-size: large;
+      cursor: url('../img/spoon_cursor.png'), auto !important;
   }
