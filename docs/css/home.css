@@ -2,7 +2,9 @@
   font-family: 'HomemadeApple';
   src: url('../fonts/Homemade_Apple/HomemadeApple-Regular.ttf') format('truetype')
 }
-
+.custom-cursor {
+  cursor: url("../img/spoon_cursor.png"), auto;
+}
 body {
     
     background-color: #B8AEC2;
