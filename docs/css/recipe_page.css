@@ -5,6 +5,7 @@
 
 body {
     background-color: #B8AEC2;
+    text-align: center;
     cursor: url('../img/spoon_cursor.png'), auto !important;
   }
   h1 {
